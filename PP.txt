@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Message</title>
+    <style>
+        #message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: blue;
+        }
+    </style>
+    <script type="text/javascript">
+        function showMessage() {
+            document.getElementById('message').textContent = "Hello, this is your message!";
+        }
+    </script>
+</head>
+<body>
+    <button onclick="showMessage()">Click me to see a message</button>
+    <div id="message"></div>
+</body>
+</html>
